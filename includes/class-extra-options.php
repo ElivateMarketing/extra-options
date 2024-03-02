@@ -157,6 +157,8 @@ class Extra_Options {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
+		// Add admin filters here
+		add_filter( 'gform_notification_enable_cc', '__return_true' );
 	}
 
 	/**
