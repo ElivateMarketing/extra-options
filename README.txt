@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Extra Options ===
 Contributors: alex.t@elivate.net
 Donate link: https://elivate.net/
 Tags: gravityforms, options
