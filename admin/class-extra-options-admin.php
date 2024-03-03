@@ -166,9 +166,8 @@ class Extra_Options_Admin {
 	}
 
 	public function sanitize( $input ) {
-		// Todo: Add sanitization here
-		return $input;
+		// If the input is 'on', return 'on'. Otherwise, return 'off'.
+		return $input === 'on' ? 'on' : 'off';
 	}
-
 
 }
